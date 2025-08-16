@@ -1,0 +1,744 @@
+<!doctype html>
+  <html lang="ko"><head><meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>[0] 앙헬 리베라 ↔ [0] 재클린 로페즈 — Duo Backup (Threads)</title>
+  <style>
+  :root { --gap: 12px; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, system-ui, Segoe UI, Roboto, 'Apple SD Gothic Neo', sans-serif; background:#fafafa; color:#222; margin:0; }
+  .wrap { max-width: 760px; margin: 24px auto; background:#fff; border:1px solid #eee; border-radius:16px; overflow:hidden; }
+  header { padding:16px 20px; background:linear-gradient(180deg,#f4f6ff,#ffffff); border-bottom:1px solid #eee; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  .sub { color:#666; font-size:12px; }
+  .thread { border-bottom:8px solid #f6f7ff; }
+  .msg { display:flex; align-items:flex-start; gap:var(--gap); padding:16px 20px; border-bottom:1px solid #f2f2f2; }
+  .msg:last-child { border-bottom:0; }
+  .avatar { width:36px; height:36px; border-radius:50%; flex:0 0 36px; object-fit:cover; }
+  .bubble { flex:1; min-width:0; }
+  .name { font-weight:700; }
+  .meta { color:#777; font-size:12px; margin-left:6px; }
+  .content p { margin:.4em 0; }
+  .content a { color:#3a57ff; text-decoration:none; }
+  .content a:hover { text-decoration:underline; }
+  .content img { max-width:100%; height:auto; display:block; } /* 본문 내부 이미지도 안전 처리 */
+  .cw { background:#fff7e6; border:1px solid #ffe3a4; color:#7a5a00; padding:6px 8px; border-radius:8px; display:inline-block; margin-bottom:6px; font-size:12px; }
+  .media { margin-top:8px; display:flex; flex-wrap:wrap; gap:var(--gap); align-items:flex-start; }
+  .media img { display:block; width:100%; max-width:240px; height:auto; border-radius:10px; border:1px solid #eee; object-fit:contain; } /* 핵심: height:auto + object-fit */
+  footer { padding:14px 20px; color:#777; font-size:12px; border-top:1px solid #eee; background:#fcfcff; }
+  @media (max-width: 480px) {
+    .wrap { margin:0; border-radius:0; border:none; }
+    .msg { padding:12px 14px; }
+    .media img { max-width:100%; } /* 모바일에서는 컨테이너 폭에 맞추기 */
+  }
+  </style></head>
+  <body>
+    <div class="wrap">
+      <header>
+        <h1>[0] 앙헬 리베라 ↔ [0] 재클린 로페즈</h1>
+        <div class="sub">인스턴스: dyingouthere2025.com · 타래 수: 11</div>
+      </header>
+      <section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/16/2025, 11:51:23 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>다들 위험의 상한선이 많이 내려간 것 같으신데요. 이미 충분히 위험하다 보거든요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/16/2025, 11:52:41 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그거 널 포함한 말 맞지?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/16/2025, 11:54:06 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 눈 굴린다. ) …일단은요. 저도 아파 쓰러지고 싶진 않아서.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/17/2025, 12:00:21 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그래. 업혀다니고 싶은 게 아니라면 말야. 뭘 마주친 거야...?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/17/2025, 1:33:22 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 음… 안전성 미달의 제품이라고 할까요. ( 발을 들어올려 보여준다. 신발 윗면이 검붉다. ) 지하 3층에서 보던 선반이 떨어졌거든요. 움직이는 거에 당한 게 아니라 다행이죠. 그건 다른 분들이 더 많이 당하셨고… … 어우, 하수구는 확실히 좀 끔찍하더라고요. 걔네들 물 밑에서도 움직이던데.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/18/2025, 8:52:15 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (그걸 보더니 제가 다치기라도 한 양 미간을 구겼다.) 억, 아프겠다.... 진짜 업혀야 하는 거 아냐? (걷기에 괜찮으냐는 물음이겠다.) 혹시 네 쪽에서도 마주쳤어? 천장을... 기어다니는 것.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/19/2025, 2:12:11 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 하하하. 뭐, 아직까진 살만해요. 이 이상이면 좀 욕 나올 듯. 그 땐 등 뒤에 업혀도 되죠? ( 누군가에게 배운 억지다. 이어지는 말엔 고개를 젓는다. ) 그녀석이요, 저는 그제도 오늘도 못 봤네요. …어쩌면 듣기는 했을지도 모르겠어요. ( 볼을 긁적였다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/19/2025, 11:56:38 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그럼. 걷기 힘들면 언제든 말해. (당연하다는 듯이 답했다. 사실, 이 대화 전에도 등을 약속한 사람이 하나 있다.) 마주치지 않았다니 다행이긴 한데... 아무래도 한둘이 아닌 것 같아서 걱정이야. 목이 기형적으로 부푼 것도 있다고 하고. 대체 뭔지....</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/20/2025, 2:48:36 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 준비라도 해둔 듯이 말씀하시네. 저야 감사하지만요. 혹시 손 쉽게 남 도와주시는 타입? ( 당신 보며 말했다. ) 그 변종이라는 거, 어지간히도 다양한 모양이더라고요. 공교롭게도 전 나가면서 단 한번도 못 마주쳤는데… ( 행운이라면 행운이겠다. 볼 긁적인다. ) 앞으로 갈 곳에는 더한 놈들이 많으려나요, 으음…</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/21/2025, 1:24:53 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 으음, 그런가...? (긴가민가한 투다.) 안 마주치면 다행인 거지. (다시 떠올리기만 해도 으스스한 느낌에 제 팔을 슬쩍 문질렀다.) 다른 좀비들처럼 그것들도 원래 사람이었을까...? 가능하다면... 사살하는 게 맞겠지. (위험도가 너무 높으니.) 아직 좀... 꺼려지네.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/21/2025, 2:53:40 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 흠… ( 당신 보다가 ) 지금까지로 봐선… 추측하기는 싫지만, 사람이겠죠. 아무래도. 마찬가지로 그런 일이 발생하는 건 보기 싫지만. ( 뒷머리 긁적인다. 한참의 간극 뒤에 말을 잇는다. ) …공격해온다면 어쩔 수 없겠죠. 말하자면 정당방위인 거죠. 그건 사람한테 하는 거랑 다르지도 않으니까. ( 괜찮지 않을까요. 그런 말까진 나올 수 없었다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/23/2025, 5:38:05 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span>  정당방위... 너도 그렇게 생각하는구나. (이 사태가 일어나고 나서 여러 번 들어 온 말이다. 자신이 그것을 어디까지 허용할 수 있는지는 여전히 헷갈리지만.) 그럼 재클린... 네가 아는 사람이 그것으로 변해서 널 공격한다고 해도, 여전히 같은 생각이야...?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 2:09:59 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …받아주다 죽거나, 크게 다치는 건 안 될 노릇이니까요. 전 해야 될 게 있으니까… ( 사실 제 말들의 연속은 변명의 갱신에 불과하다. 저도 알고 있기에 어느새, 주머니 안 쪽으로 숨긴 손으로 주먹을 쥐고 있었다. ) ……갑자기 그런 말씀은 왜 하신대요. ( 우물대다가 ) 리베라 씨는요? ( 역질문으로 회피했다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/26/2025, 12:50:49 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 정당방위라고 했잖아. 어쩔 수 없다며. (의도한 바는 아니나, 당신을 채근하는 투로 말했다.) … 현실을 조금은 자각하게 되어서. 난 이제… 할 수 있을 것 같아. (괴물에게 죽은 동료, 감염된 동료, 변하기 직전 이곳을 떠난 동료. 함께 있는 이들을 지키기 위해서라면, 완전히 변했다고 판단되는 감염체들을 망설임 없이 죽이겠다는 결심을 내렸다. 스스로에게 폭력을 어디까지 허용하게 될지가 두려워서 애초부터 넘지 않으려던 선 중 하나를 그제야 넘었다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/26/2025, 2:00:20 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …만약 거리에서든, 어디에서든 만난 얼굴이 제 가족들이라면. 전 못 해요. 이게 듣고 싶으셨던 거죠? 그 외에는 언제나 그랬듯 아무래도 좋지만. ( 얄팍한 구분선이다. ) 당신의 그런 각오가 다행… 다행인 걸까요. …뭐, 인간들 사이서도 서로 살겠다고 총알 날아다니는 판국에 이렇게 말하는 건 너무 속 편한 짓이긴 하네요. ( 픽 웃고는 뒷목 주물렀다. ) 대신 조심해요. 그 짓은 남 살리려고 하는 게 아니라, 본인 살려고도 해야 되는 일이니까. …혹시나 하는 상황에 꼭 기억하시라고요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/28/2025, 8:23:50 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (아는 사람과 가족의 차이는 클 수밖에 없다. 자신에게도 마찬가지라, 당신의 말에 어느 정도 공감했다.) ... 미안, 그런 끔찍한 상상을 하게 해서. 그 누가 그런 짓을 쉽게 할 수 있겠어. 그리고... 알고 있으니 걱정 안 해도 돼. (잠시 뜸 들이다가 묻는다.) ... 혹시 가족이 이 근처에 있었어...?</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/19/2025, 3:35:06 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>…그, 다들 할 일 하세요. 뭐, 뭐 남의 나이 갖고서 입 씨름을 그렇게. ( 라기엔 자신도 이전까지 남 갖고서 그리 하고 있었다. ) 해산, 해산!</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/19/2025, 3:35:28 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 재클린, 해명이 필요한 때인 것 같은데. (다시 불러세운다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/19/2025, 3:48:27 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 무, 무슨 해명이요. 저 해산이라고 했는데. 아 배고프다. 어디 뭐 먹을 거 없나. ( 밖이라면 이 타이밍에 방문 밖을 나가야 마땅하다. 하지만 나갈 곳이 없으니 구석 어드메서 멈춘다. 이은 말은 혼자, 조용히 되뇌었다. ) 썅…</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/20/2025, 2:10:26 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 말 돌리기야? (웃으며 당신 뒤로 따라붙어서 구석까지 함께 왔다. 맹세코 의도한 바는 아니지만, 약간의 위압감을 줄 수도 있겠다.) 그래서, 정말로 몇 살인데?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/20/2025, 7:29:24 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 아이. ( 구석까지 딱, 달라붙는다. 그 누구도 생각하지 않았고, 의도하진 않았겠으나 위압감만큼은 느껴진다. 시선 내린다. ) 거, 스물 다섯이라니까요…</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/22/2025, 8:43:17 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> ... 진짜? (길게 말하지 않았다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/22/2025, 7:44:30 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 갈 곳 없음에도 괜히 뒤 한번 돌아본다. 다시 당신 보면… ) …진, 진짜. 아, 아니. 잠깐만. 제가 제 나이 갖고도 이렇게 추궁을 받아야 돼요?! ( 따지자면 요점은 거짓말을 쳤다는 것일 테나, 흐릴 속셈으로 괜히 화를 낸다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 8:43:45 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 성인이 나이 얼버무리는 것쯤이야 적당히 눈감아줄 수 있지만, 미성년자가 속이는 건 죄질이 다르기 때문이지. 그렇지만... 뭐, 네가 계속해서 그렇게 주장한다면 믿어 줄게. 정말로 억울한 것일 수도 있으니. (별로 그렇게 생각하는 것 같진 않은 얼굴.)</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/21/2025, 12:59:02 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p>(남들이 다 눕는 사이 부엌에서 분주하게 움직였다. 뭔가를 잔뜩 썰더니, 커다란 그릇에 담아 쓱쓱 섞는다.) 살사 먹을 사람 있어요?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/21/2025, 12:59:55 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 저요, 저요, 저요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/21/2025, 1:00:53 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 와서 앉아. (식탁의 의자를 탁탁 두드렸다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/21/2025, 1:09:02 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 아싸! ( 와다다 달려가 앉는다. ) 이런 상황에서는 진-심. 신선한 살사 같은 건 꿈도 못 꿨는데요. 냉동 치킨텐더랑 인생을 종치나 싶었는데. 진짜 살고 볼 일이네...</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/21/2025, 1:14:12 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 나도 냉장고 상태가 이렇게 괜찮을 줄은 몰랐어. 뭔가 해 먹으려고 했던 건지 식재료도 잔뜩 남아있고.... 운이 좋았지? (그릇에 칩을 담아 당신 앞으로 밀어주었다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/21/2025, 1:47:22 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 칩에 살사를 올려 우물우물 먹는다. ) …우리 엄마 거보다 맛있네. ( 속으로 잠시 생각했다. 엄마? 미안. 근데 진짠 걸. ) 리베라 씨랑 만나서 여기까지 온 게 천운이네요. ( 그리고 손짓한다. ) 와서 같이 먹어요. 양 많겠구만.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/21/2025, 1:51:27 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 으핫, 그 정도야? 아마 배가 너무 고파서 그렇게 느껴지는 거겠지. (당신의 말에 맞은편 의자를 빼 앉았다.) 어머니가 요리 자주 하셨어?</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 12:06:05 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p>그러고 보니, 사이렌이 울린 건 뭐 때문이라고 했죠...? (놓친 것 같다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 12:06:57 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 어떤 인간이 야구장에 있는 괴한들을 유인하기 위해 한 짓이라고, 헤이즐 씨께서 말씀해주셨어요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 12:07:53 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 아... 고마워. 우리도 야구장으로 가는 이상, 이걸 잘했다고 해야 할지, 미쳤다고 해야 할지....</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 12:29:02 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 미친 거죠. ( 단언했다. 근데 그 이유가 누군가를 위해서라고 하니, 마냥 욕한 심정이 복잡해져 얼굴 한번 쓸었다. ) …일단은 좋은 게 좋은 거겠죠. 길이 열리기는 했으니.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 12:33:13 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 응. 나도 방송국 팀이 물리지 않고 돌아왔으니 이렇게 편한 소리 할 수 있는 거겠지.... 들고 온 팝콘은 안 찌그러졌어?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 12:38:25 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 굿맨 씨가 트렁크로 ( … ) 가셔서 뒷좌석이 좀 비어서요. 완벽하게 가져왔죠… 전 좀 달콤해졌지만. ( 녹은 시럽이 옷에 묻어 있다. ) 어깨는 괜찮으세요? 팝콘 기계가 장난 아니게 무겁게 뵈던데.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 12:53:06 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 이 집을 떠나기 전에 빨아야겠네. (당신의 옷을 보며 너털웃음 짓는다. 어깨를 슬슬 돌리며 장난스러운 투로) 농구 경기에서 힘 좀 뺐더니 체력이 남았네.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 12:59:43 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 능숙하시던데요. 동네 골대 자주 만져 보셨죠? 뭐, 상대가 파크레인저라 결과는 조금 아쉽게 되긴 했지만.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 1:08:20 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 아, 그 사람 제법이었지.... (어깨 으쓱하고) 재미로 좀 했어. 친구들이랑. 그러는 넌 팝콘 머신 만지는 솜씨가 장난 아니던데. 영화관에선 얼마나 일했어?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 1:48:01 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 다음엔 응원하는 마음으로 리베라씨한테 걸게요. 돈. ( 어깨 툭툭 치고는 ) 영화관… 성인 언저리 됐을 때 했으니까, 1년 정도 했던 것 같네요. (지금은 다 부서진) 샌드위치 가게에서 일하기 전이니까.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/25/2025, 10:28:47 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그래. 기왕이면 직접 참여도 해 주고. (장난스레 말하며 웃었다.) 샌드위치 가게도? 다양하게도 일했네. 성인 언저리면, 대학 다니면서 일한 거야?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/26/2025, 2:47:55 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 음, 어디 바람이 부나. ( 되도 않는 딴청이다. 보나마나 잘 못하는 이들의 회피법이다. ) …내기만 않으면 하고요. 큼큼. 그리고 음… 아뇨. 그냥 일만 했어요. 대학이랑은 여러모로 연이 없어서. ( 어깨 으쓱였다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/28/2025, 7:53:04 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그래, 그럼 내기 없이. (큭큭 웃고 넘어간다.) 왜? 가고 싶은 마음이 없어서?</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 9:21:08 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>( 눈 비비고 목 가다듬었다. ) 혹시 모르는 일이니까, 약품도 챙기시는 걸 말씀드리고 싶고요. …저희 팀 ( 1팀 ). 운전해주실 분.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 9:22:35 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 일단 차키는 내가 챙길게. 어떤 걸로 끌고 갈까?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 9:26:16 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 인원을 훑었다. ) 가급적이면 물어보고 싶지만, 캠핑카 가져갈까요. 먼저 가져가는 사람이 임자인 걸로. ( 부러 우스갯소리 내뱉었다. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 9:32:19 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 좋지.</p><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Story" class="u-url mention">@<span>Story</span></a></span> [캠핑카 차키, 붕대, 진통제 챙긴다.]</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/24/2025, 9:33:37 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 재클린, 쥬드한테서 가방 빌려올래?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/24/2025, 9:34:06 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 아, 네. 부탁 좀 드리고 올게요…</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/25/2025, 12:52:19 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>( 소란에 상관 없이 느리게 사람들 있는 곳을 빠져나간다. 혼자 있고 싶다. 아니, 그래야겠다… )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/25/2025, 1:36:23 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (당신이 가는 곳을 보아두었다가, 거실의 상황이 정리되고 나서 뒤따른다. 똑똑, 벽을 두드려 자신이 있다는 것을 알린다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/25/2025, 1:57:58 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 한동안 답이 없는 듯하다가. 좀 지나고 나서야 목소리 하나 새어 나온다. ) …여기 사람 있어요… ( … 같은 소리. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/25/2025, 2:08:51 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (그 후로는 아무것도 건드리지 않고, 목소리만으로 묻는다.) 들어가도 돼?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/25/2025, 2:23:53 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 대답의 말소리 보다는 문으로 너머 걸음 소리가 가까워지고 있었다. 이어 문 열리는 소리 들리면. ) …리베라 씨. 쉬시지. 오늘 험난한 하루였잖아요. ( 낯은 보기엔 여전하다. 바람 빠지는 웃음 하나 함께 문을 밀었다. ) 들어오세요. 안 그래도 침대 있는 방 선점했거든요? 뭐, 다들 정신이 없어서. … ( 바람 빠지는 웃음 하나. ) 들어오세요. ( 말하고선 생각했다. 이미 말했구나. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/25/2025, 2:39:10 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그래. (가볍게 미소 지으며 짧게 대꾸하고는, 당신을 지나쳐 방 안으로 들어섰다. 침대 끝에 걸터앉아 긴 숨을 내뱉는다.) ... 혼자만의 시간이 필요할 수도 있겠지만, 음.... (뭐라고 말을 꺼내야 할까.) 그래도. ... 괜찮은지 확인하고 싶어서 잠깐 들렀어. (시선은 당신을 향하지 않지만, 미안해하는 낯이다. 아무래도 당신을 혼자 두기에는 신경이 쓰여 견딜 수 없었다는 듯이.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/25/2025, 2:50:37 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …사람 살피러 그렇게 미안한 모습으로 들어오면 괜찮다는 말도 쏙 들어가요. ( 하하. 입으로 웃었다가. ) …괜한 곳 들어온 것처럼 하지 않아도 된단 소리에요. 그리고 전… ( 담는 말은 익숙했으나 머뭇거렸다. ) 괜찮아요. 조금만 있으면 돌아올 거예요. 적당히 자를 생각들은 잘라내고, 하면. ( 당신 시선서 눈 돌렸다. ) …좀 어떠세요. 뭐, 여러모로. 대답하고 싶으신 부분만 말씀해주셔도 돼요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/26/2025, 2:24:37 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (평소 같았으면 마주 웃음으로 답했겠지만, 지금은 습관적으로 떠오르는 미소 외에는 지을 힘조차 없었다.) 조금만 있으면, 말이지. …. (어찌 보면 바람직한 방식이다. 안 그래도 좋지 않은 상황에, 두려움에 떨며 지나간 일을 곱씹는다고 해서 달라질 건 없다. 미련을 떨치는 법을 모르는 앙헬은 그렇게 생각했다.) 몸은… 괜찮아. 진통제를 두 배로 먹었더니 이젠 아프지도 않네. 너도, 나도, 움직이는 데에는 당분간 영향이 있겠지만. (당신은 ‘여러모로’라고 했으나, 선택적인 답변만을 내놓았다.) 다음번에도 나갈 거야…? (이런 일을 겪고 나서도.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/26/2025, 3:01:41 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 일은 지나가도, 결국 살긴 살아야되니까요. 해야 될 일이 있으니까. …설령 정리가 안 되더라도 당장은 한 켠에 모두 미뤄놔야 될 때기도 하고. ( 다행히도 그것만큼은 익숙했다. ) 아프지 않다면 다행이에요. 우리 나가면 간 조심해야된다니까. ( 괜스레 그런 말 하나 얹고서는 ) 글쎄요. 일단 두 번이나 나가서 역시 하루는 집을 지켜야되나… 했는데. …그 사이에 사람이 줄어서 말이죠. ( 웃음이 지나간다. ) 생각 좀 해 보려고요. 어디로 가든 상관은 ……없겠지만. ( 말을 잠시 망설였다. ) 리베라 씨는 바다, 가시죠? 멀쩡한 배 있나 이것저것 봐주고 와주세요. 그러면 나갈 일이 빨라질 수도 있으니까…</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/27/2025, 8:53:23 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>2팀 무전기는 일단 제가 챙길게요.  혹시나 하고 싶으신 분은 모쪼록 말씀 주시길…</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/27/2025, 9:48:29 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 나도 할 수 있으니까 넘기려면 넘겨. 네가 하고 싶으면 갖고 있어도 되고.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/27/2025, 9:49:07 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 제가 할게요. ( 엄지 올린다. ) 대신 차 운전! 부탁드립니다.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/27/2025, 9:50:25 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 그래. (마주 엄지 척!) 키는 테리가 챙긴 것 같은데, 이따 물어볼게.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/27/2025, 9:52:26 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 아하… ( 몰랐다. ) 그럼 따로 안 여쭤봐도 괜찮을지도요. 뭐, 모쪼록 편하신대로.</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/28/2025, 12:15:44 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p>(세 번이나. 이럴 수는 없다. 이렇게까지 잔인할 수는 없다. 어제까지만 해도 그저 불운이라고 여겼지만, 이쯤 되면 탐색 과정에서 자신의 판단에도 명백한 문제가 있었던 것이다. 그 자리에 선 채로 몇 번이나 마른세수를 반복하더니, 얼굴을 팔에 묻어버린다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/28/2025, 12:53:02 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …리베라 씨. ( 어느 정도 조용해질 무렵, 당신이 눈에 밟혔다. 어깨에 손을 올린다. ) …사고예요. 봤잖아요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/28/2025, 7:21:23 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (고개를 잠깐 들어 당신을 봤다가, 다시 팔에 기댄다.) 그걸 그냥... 사고라도 해도 되는 걸까. (명백한 판단 미스였다. 금고에 손을 대는 건 모두가 함께 한 선택임을 알면서도 그리 생각했다.)</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/29/2025, 12:10:17 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p>(떨리는 손으로 배를 부여잡는다.) 저 말이 맞아요. 지혈제는 아껴두고요....</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/29/2025, 12:14:39 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …( 다가가 지혈에 손을 거드는 듯하다가, 그저 잡는다. ) 리베라 씨. 당신까지… …</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/29/2025, 12:20:05 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (당신의 손을 꽉 쥐었다가 놓는다.) 미안. 계속 험한 꼴 보게 하네.... 재클린, 꼭 살아서, 가족들 만나.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/29/2025, 12:24:25 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 힘이 빠지는 것에 제가 힘을 넣어 쥐었다. 이러면 제 기운이 옮겨가기라도 할까 봐. 그런 유치한 생각으로. ) 만날 거예요. 어떻게 해서든. 기왕이면, 기왕이면 좀. 같이 해서 만나고 싶은데요. 당신은 좋은 사람이니까. 저기, 눈 좀 감지 말고…</p></div>
+        </div>
+      </div> </section>
+<section class="thread">
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/31/2025, 12:22:38 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p>그러게요. 여기 있는 사람들, 바다를 기점으로 싹~ 잊을 생각이었는데. ( 당연히 구라다. 으쓱인다. ) 뭐, 안녕하세요들.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/31/2025, 12:23:53 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (인사를 받지 않고 제 미간을 꾹꾹 누르기만 한다.)</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/31/2025, 1:11:36 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> …혹시 머리 아파요? 마지막에 다친 데가 거긴 아니었던 것 같은데. ( 농이고. 으쓱였다가 씁, 소리 한번 내고는 ) 미안하다고 말씀 드리면 좀 편해지실라나… 아니면 저도 아까워 죽겠다고 할까요.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/31/2025, 1:24:52 AM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> (그제야 눈을 들어 당신을 본다. 불편한 기색이다.) ... 차라리 후자가 낫겠네. 사고였던 거야...? 방금 뚫린 데 같은 소릴 하는 걸 보면.</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/31/2025, 2:07:13 AM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> ( 시선 마주치자 아하하… 웃으며 눈 피했다. ) 으으음… 자세히 듣고 싶어요? 말하는 거에 거리낌은 없는데. 딱히 깨끗한 끝은 아니라… 뭐, 여기 그렇지 않은 사람이 없다지만은. ( 한숨 하나. )</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/823/378/266/107/011/original/5e0139b76178b148.png" alt="[0] 앙헬 리베라" />
+        <div class="bubble">
+          <div><span class="name">[0] 앙헬 리베라</span>
+          <span class="meta">7/31/2025, 5:34:31 PM · KindTooHard@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@Jackie" class="u-url mention">@<span>Jackie</span></a></span> 아니, 굳이 네 입으로 말하게 하고 싶지는 않아.... (그런 끝을 맞아야 했다는 게 안타깝기만 하다.) 인사할 시간은... 있었어?</p></div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <img class="avatar" src="https://dyingouthere2025.com/system/accounts/avatars/114/822/557/256/309/507/original/afe8e516775e27f0.jpg" alt="[0] 재클린 로페즈" />
+        <div class="bubble">
+          <div><span class="name">[0] 재클린 로페즈</span>
+          <span class="meta">7/31/2025, 6:37:35 PM · Jackie@dyingouthere2025.com</span></div>
+          <div class="content"><p><span class="h-card" translate="no"><a href="https://dyingouthere2025.com/@KindTooHard" class="u-url mention">@<span>KindTooHard</span></a></span> 그래도 덜 아팠던 것 같아요. 아마 다른 분들의 끝보다는. ( 그리 말하고 맺었다. ) 다행히도요. 그래서 분에 넘칠만큼 많이 말을 나누고 온 것 같아요. 마지막으로 본 것치곤 꽤 복졌죠. ( 시선은 당신에 닿아있다가 살아있는 이들로 향한다. ) …이제는 제가 인사하기만 하면 되겠네요.</p></div>
+        </div>
+      </div> </section>
+      <footer>생성기: Mastodon Duo Chat Backup (v0.2.2, threads + mobile image fix).</footer>
+    </div>
+  </body></html>
